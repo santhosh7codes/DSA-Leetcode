@@ -14,8 +14,8 @@ def isAnagram(a, b):
         if count[ch] < 0:
             return False
     return True
-a = input("Enter the first string: ")
-b = input("Enter the second string: ")
+a = input("Enter the first string ")
+b = input("Enter the second string ")
 
 if isAnagram(a, b):
     print("The strings are anagrams.")
